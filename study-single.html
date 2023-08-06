@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="headerandfooter.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="img/logo1.png">
+    <script src="headerandfooter.js"></script>
+    <title>Grow Marks</title>
+</head>
+<body>
+    <div class="clip-path">
+        <!-- .........................heading....................... -->
+        <section id="header-link">
+            <div class="mein-head">
+                <a href="home.html"><img id="logo"  src="img/logo1.png" alt="" width="100px" ></a>
+
+             
+      
+                <div id="menu">
+                <ul id="mein-ul">
+                    <label id="close" onclick="closeMenu()" ><i class="fa-solid fa-xmark"></i></label>
+                    <li><a class="underline" href="home.html">Home</a></li>
+                    <li><a class="underline" href="About.html">About</a></li>
+                    <li><a class="underline" href="servicepage.html">Services</a>
+                        <div id="sub-Services">
+
+                            <a href="book-keeping-service.html"> Book Keeping Service</a>
+                            <a href="accounting-service.html"> Accounting Service</a>
+                            <a href="account-payable.html"> Account Payable</a> 
+                            <a href="account-receviable.html"> Account Receviable</a>
+                            <a href="tax-preparation.html"> Tax Preparation</a>
+                            <a href="financial-analysis.html"> Financial Analysis</a>
+                            <a href="invoice-generation.html"> Invoice Generation</a>
+                       
+                    </div>
+                    </li>
+                    <li><a class="underline" href="#team">Team</a></li>
+                    <li><a class="underline" href="#news">News</a>
+                        <div id="sub-Services">
+                            <a href="NewsBlog-Services.html">News / Blog - Services</a>
+                            <a href="newscasestudies.html">Case / Studies - listing</a>
+                            <a class="active"  href="study-single.html">News / study - single</a>
+                        </div>
+                    </li>
+                    <li><a class="underline" href="contact-grow-mark.html">Contact</a></li>  
+                </ul>
+            </div>
+            
+                <!-- <div>
+                    <button id="head-btn"><a class="underline" href="contact-grow-mark.html">GET A QUOTES</a></button>
+                </div> -->
+                <label class="hamber">
+                    <i onclick="openMenu()" class="fas fa-bars"></i>
+                  </label>
+            </div>
+        </section>
+        </div>
+
+        <!-- ...............................grid-card.............................. -->
+        <div class="p-5 pt-20 bg-gray-300">
+            <h1 class="text-3xl m-5 font-bold">ACCOUNTS SERVICES NEWS </h1>
+            <div class="card-container grid sm:grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-8  p-2">
+                    <div class="col-start-1 sm:col-span-1 md:col-span-2 shadow-lg  bg-gradient-to-r from-gray-200 via-gray-400 to-gray-600 shadow-[20px_20px_50px_7px_#cbd5e0,20px_20px_44px_7px_#a0aec0] cursor-pointer hover:scale-95 hover:delay-100 border-black border-2">
+                    <div class="  ">
+                        <img class="w-full border-black border-b-2" src="img/account-outsourcing.jpg" alt="">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl py-4 font-medium text-black"><a href="">International Artist Feature: Malaysia</a></h3>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis est quidem maxime nisi ut nihil illum provident quibusdam consequatur quia perferendis</p> -->
+                        <h6 class="mt-8  w-20 text-center">vipsss</h6>
+                    </div>
+                </div>
+                
+                    <div class="shadow-lg bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900 shadow-[20px_20px_50px_7px_#cbd5e0,20px_20px_44px_7px_#a0aec0] cursor-pointer hover:scale-95 hover:delay-100 border-black border-2">
+                        <div>
+                            <img class="w-full border-black border-b-2" src="img/accounting-services.jpg" alt="">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="text-xl py-4 font-medium text-black"><a href="">International Artist Feature: Malaysia</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis est quidem maxime nisi ut nihil illum provident quibusdam consequatur quia perferendis</p>
+                            <h6 class="mt-24  w-20 text-center">vipsss</h6>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900 shadow-[20px_20px_50px_7px_#cbd5e0,20px_20px_44px_7px_#a0aec0] cursor-pointer hover:scale-95 hover:delay-100 border-black border-2">
+                        <div>
+                            <img class="w-full border-black border-b-2" src="img/benefit-for-clients.jpg" alt="">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="text-xl py-4 font-medium text-black"><a href="">International Artist Feature: Malaysia</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis est quidem maxime nisi ut nihil illum provident quibusdam consequatur quia perferendis</p>
+                            <h6  class="mt-24  w-20 text-center">vipsss</h6>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900 shadow-[20px_20px_50px_7px_#cbd5e0,20px_20px_44px_7px_#a0aec0] cursor-pointer hover:scale-95 hover:delay-100 border-black border-2">
+                        <div>
+                            <img class="w-full border-black border-b-2" src="img/About-img.jpg" alt="">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="text-xl py-4 font-medium text-black"><a href="">International Artist Feature: Malaysia</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis est quidem maxime nisi ut nihil illum provident quibusdam consequatur quia perferendis</p>
+                            <h6  class="mt-36  w-20 text-center">vipsss</h6>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900 shadow-[20px_20px_50px_7px_#cbd5e0,20px_20px_44px_7px_#a0aec0] cursor-pointer hover:scale-95 hover:delay-100 border-black border-2">
+                        <div>
+                            <img class="w-full border-black border-b-2" src="img/accounting-services-small-business-book-keeping-services.jpg" alt="">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="text-xl py-4 font-medium text-black"><a href="#">International Artist Feature: Malaysia</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis est quidem maxime nisi ut nihil illum provident quibusdam consequatur quia perferendis</p>
+                            <h6  class="mt-24 w-20 text-center">vipsss</h6>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900 shadow-[20px_20px_50px_7px_#cbd5e0,20px_20px_44px_7px_#a0aec0] cursor-pointer hover:scale-95 hover:delay-100 border-black border-2">
+                        <div>
+                            <img class="w-full border-black border-b-2" src="img/book-keeping-body0-3-book-keeping-services.png" alt="">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="text-xl py-4 font-medium text-black"><a href="#">International Artist Feature: Malaysia</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis est quidem maxime nisi ut nihil illum provident quibusdam consequatur quia perferendis</p>
+                            <h6  class="mt-10 w-20 text-center">vipsss</h6>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900 shadow-[20px_20px_50px_7px_#cbd5e0,20px_20px_44px_7px_#a0aec0] cursor-pointer hover:scale-95 hover:delay-100 border-black border-2">
+                        <div>
+                            <img class="border-black border-b-2" src="img/body0-booking-service.jpg" alt="">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="text-xl py-4 font-medium text-black"><a href="#">International Artist Feature: Malaysia</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis est quidem maxime nisi ut nihil illum provident quibusdam consequatur quia perferendis</p>
+                            <h6  class="mt-24 w-20 text-center">vipsss</h6>
+                        </div>
+                    </div>
+                    <div class="shadow-lg shadow-[20px_20px_50px_7px_#cbd5e0,20px_20px_44px_7px_#a0aec0] bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900 cursor-pointer hover:scale-95 hover:delay-100 border-black border-2">
+                        <div>
+                            <img class="w-full border-black border-b-2" src="img/website.jpg" alt="">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="text-xl py-4 font-medium text-black"><a href="#">International Artist Feature: Malaysia</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis est quidem maxime nisi ut nihil illum provident quibusdam consequatur quia perferendis</p>
+                            <h6  class="mt-4 w-20 text-center">vipsss</h6>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+       
+
+        <!-- .......................footer............................... -->
+
+    <footer id="Container-flex" >
+     
+            <div class="Our-details-container">
+                <a href="home.html"><img src="img/logo1.png" alt="" width="150px"></a>
+                <p>As a business consultant, we focus on delivering quantifiable results for our customers, based on a well tested methodology and solid experience.</p>
+                <p><a href="#location"><i class="fa-solid fa-location-dot"></i> Grow Mark Consultancy , B-110, Grace Plaza, Jogeshwari West, Mumbai 400102</a></p>
+                <p><a href="mailto:growmark@gmail.com"><i class="fas fa-envelope"></i> growmark@gmail.com</a></p>
+                <p><a href="tel:"><i class="fas fa-phone-alt"></i> +91 99999999999</a></p>
+            </div>
+        <div class="container-menu">
+            <div class="Registration-container">
+                <h3>Registration</h3>
+                <ul>
+                    <li>Private Limited Company</li>
+                    <li>One Person Company</li>
+                    <li>Ltd. Liability Partnership</li>
+                    <li>Trademark Registration</li>
+                    <li>Startup Registration</li>
+                    <li>Public Limited Company</li>
+                    <li>Section 8 Company</li>
+                    <li>Online Trust Registration</li>
+                    <li><a href="contact-grow-mark.html">Contact Us</a></li>
+                </ul>
+            </div>
+    
+           <div class="Registration-container">
+                <h3>Compliances</h3>
+                <ul>
+                    <li>Accounting Services</li>
+                    <li>GST Return Filing</li>
+                    <li>Income Tax return filling</li>
+                    <li>One Person Company Compliance</li>
+                    <li>TDS Return Filing</li>
+                    <li>LLP Annual Compliances</li>
+                    <li>Private Limited Company</li>
+                    <li>Privacy Policy</li>
+                    <li><a href="About.html">About Us</a></li>
+                </ul>
+            </div>
+    
+            <div class="ConnectWithUs-container">
+                <h3>Connect With Us</h3>
+                <ul>
+                    <li><a href="www.twitter.com" ><i class="fa-brands fa-square-twitter"></i></a></li>
+                    <li><a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="www.intstagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="www.youtube.com"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="www.pinterest.com"><i class="fa-brands fa-pinterest"></i></a></li>
+                    <li><a href="www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+         </div>
+    
+        </footer>
+    
+        <footer id="copyright-footer">
+            <ul>
+                <li>Copyright © 2022 Grow Mark.</li>
+                <li>All rights reserved.</li>
+                <li>Designed by Oriflamme IT SOLUTIONS</li>
+            </ul>
+        </footer>
+        
+
+
+
+</body>
+</html>

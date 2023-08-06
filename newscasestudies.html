@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="headerandfooter.css">
+    <link rel="stylesheet" href="newscasestudies.css">
+    <link rel="icon" type="image/x-icon" href="img/logo1.png">
+    <script src="headerandfooter.js"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>News Blog Services</title>
+</head>
+<body>
+  <div class="clip-path">
+    <!-- .........................heading....................... -->
+    <section id="header-link">
+        <div class="mein-head">
+            <a href="home.html"><img id="logo"  src="img/logo1.png" alt="" width="80px" ></a>
+
+         
+  
+            <div id="menu">
+            <ul id="mein-ul">
+                <label id="close" onclick="closeMenu()" ><i class="fa-solid fa-xmark"></i></label>
+                <li><a class="underline" href="home.html">Home</a></li>
+                <li><a class="underline" href="About.html">About</a></li>
+                <li><a class="underline" href="servicepage.html">Services</a>
+                    <div id="sub-Services">
+
+                        <a href="book-keeping-service.html">Book Keeping Service</a>
+                        <a href="accounting-service.html"> Accounting Service</a>
+                        <a href="account-payable.html">Account Payable</a> 
+                        <a href="account-receviable.html"> Account Receviable</a>
+                        <a href="tax-preparation.html">Tax Preparation</a>
+                        <a href="financial-analysis.html">Financial Analysis</a>
+                        <a href="invoice-generation.html">Invoice Generation</a>
+                   
+                </div>
+                </li>
+                <li><a class="underline" href="#team">Team</a></li>
+                <li><a class="underline" href="#news">News</a>
+                    <div id="sub-Services">
+                        <a href="NewsBlog-Services.html">News / Blog - Services</a>
+                        <a class="active" href="newscasestudies.html">Case / Studies - listing</a>
+                        <a href="study-single.html">News / study - single</a>
+                    </div>
+                </li>
+                <li><a class="underline" href="contact-grow-mark.html">Contact</a></li>  
+            </ul>
+        </div>
+        
+            <!-- <div>
+                <button id="head-btn"><a class="underline" href="contact-grow-mark.html">GET A QUOTES</a></button>
+            </div> -->
+            <label class="hamber">
+                <i onclick="openMenu()" class="fas fa-bars"></i>
+              </label>
+        </div>
+    </section>
+    </div>
+    <!-- ...........bg-img........... -->
+      <!-- <div>
+        <img src="img/news img/new1-img.jpg" alt="" width="100%" height="450px">
+      </div> -->
+ <!-- .....................end bg-img....................... -->
+      
+    <!-- ...................card-grid............... -->
+<div id="grid-container">
+    <h2>Services Case Study :</h2>
+    <div class="grid">
+        <div class="grid-item">
+          <div class="card">
+            <img class="card-img" src="img/news img/news2-img.jpg" alt="Rome" />
+            <div class="card-content">
+              <h1 class="card-header">Book Keeping Service</h1>
+              <p class="card-text">
+                You and your employees spend all day providing the best IT services possible to your customers. The day-to-day grind makes it difficult for you to find ...
+              </p>
+              <button class="card-btn">Visit <span>&rarr;</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img
+              class="card-img"
+              src="img/news img/news2-img.jpg"
+              alt="Grand Canyon"
+            />
+            <div class="card-content">
+              <h1 class="card-header">Accounting Service</h1>
+              <p class="card-text">
+                In today’s world, running a successful accounting firm is a challenge indeed. It is about empowering employee resources, optimizing the latest accounting technology.
+              </p>
+              <button class="card-btn">Visit <span>&rarr;</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img class="card-img" src="img/news img/news2-img.jpg" alt="Maldives" />
+            <div class="card-content">
+              <h1 class="card-header">Account Payable</h1>
+              <p class="card-text">
+                As finance teams begin to integrate new technology into their workflows, many accounts payable (AP) and accounts receivable (AR) professionals are noticing the benefits that
+              </p>
+              <button class="card-btn">Visit <span>&rarr;</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+            <div class="card">
+              <img class="card-img" src="img/news img/news2-img.jpg" alt="Maldives" />
+              <div class="card-content">
+                <h1 class="card-header">Account Receviable</h1>
+                <p class="card-text">
+                    Typically, analysis of receivables will involve assessments of the size of your accounts receivable as well as any allowance for doubtful accounts you make.
+                </p>
+                <button class="card-btn">Visit <span>&rarr;</span></button>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="card">
+              <img class="card-img" src="img/news img/news2-img.jpg" alt="Maldives" />
+              <div class="card-content">
+                <h1 class="card-header">Tax Preparation</h1>
+                <p class="card-text">
+                    Ready to start your tax business for the new tax season but wondering how much to charge? It can be difficult to price your own services. 
+                </p>
+                <button class="card-btn">Visit <span>&rarr;</span></button>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="card">
+              <img class="card-img" src="img/news img/news2-img.jpg" alt="Maldives" />
+              <div class="card-content">
+                <h1 class="card-header">Financial Analysis</h1>
+                <p class="card-text">
+                    Financial reporting refers to standard practices to give stakeholders an accurate depiction of a company’s finances, including their revenues, expenses, profits, capital, and cash flow,</p> 
+                <button class="card-btn">Visit <span>&rarr;</span></button>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="card">
+              <img class="card-img" src="img/news img/news2-img.jpg" alt="Maldives" />
+              <div class="card-content">
+                <h1 class="card-header">Invoice Generation</h1>
+                <p class="card-text">
+                    thorough invoice guide, guides on using the invoice generator’s various features, tips for effective invoicing, definitions of invoicing terms, etc.
+                </p>
+                <button class="card-btn">Visit <span>&rarr;</span></button>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="grid-item">
+            <div class="card">
+              <img class="card-img" src="img/news img/news2-img.jpg" alt="Maldives" />
+              <div class="card-content">
+                <h1 class="card-header">Maldives</h1>
+                <p class="card-text">
+                  The Maldives are known for their
+                  <strong>natural environment</strong> including the blue ocean,
+                  white beaches, and clean air, attracting tourists.
+                </p>
+                <button class="card-btn">Visit <span>&rarr;</span></button>
+              </div>
+            </div>
+          </div> -->
+      </div>
+    </div>
+    
+        <!-- .......................footer............................... -->
+
+        <footer id="Container-flex" >
+     
+          <div class="Our-details-container">
+            <a href="home.html"><img src="img/logo1.png" alt="" width="150px"></a>
+              <p>As a business consultant, we focus on delivering quantifiable results for our customers, based on a well tested methodology and solid experience.</p>
+              <p><a href="#location"><i class="fa-solid fa-location-dot"></i> Grow Mark Consultancy , B-110, Grace Plaza, Jogeshwari West, Mumbai 400102</a></p>
+              <p><a href="mailto:growmark@gmail.com"><i class="fas fa-envelope"></i> growmark@gmail.com</a></p>
+                <p><a href="tel:"><i class="fas fa-phone-alt"></i> +91 99999999999</a></p>
+          </div>
+      <div class="container-menu">
+          <div class="Registration-container">
+              <h3>Registration</h3>
+              <ul>
+                  <li>Private Limited Company</li>
+                  <li>One Person Company</li>
+                  <li>Ltd. Liability Partnership</li>
+                  <li>Trademark Registration</li>
+                  <li>Startup Registration</li>
+                  <li>Public Limited Company</li>
+                  <li>Section 8 Company</li>
+                  <li>Online Trust Registration</li>
+                  <li><a href="contact-grow-mark.html">Contact Us</a></li>
+              </ul>
+          </div>
+  
+         <div class="Registration-container">
+              <h3>Compliances</h3>
+              <ul>
+                  <li>Accounting Services</li>
+                  <li>GST Return Filing</li>
+                  <li>Income Tax return filling</li>
+                  <li>One Person Company Compliance</li>
+                  <li>TDS Return Filing</li>
+                  <li>LLP Annual Compliances</li>
+                  <li>Private Limited Company</li>
+                  <li>Privacy Policy</li>
+                  <li><a href="About.html">About Us</a></li>
+              </ul>
+          </div>
+  
+          <div class="ConnectWithUs-container">
+              <h3>Connect With Us</h3>
+              <ul>
+                  <li><a href="www.twitter.com" ><i class="fa-brands fa-square-twitter"></i></a></li>
+                  <li><a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+                  <li><a href="www.intstagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="www.youtube.com"><i class="fa-brands fa-youtube"></i></a></li>
+                  <li><a href="www.pinterest.com"><i class="fa-brands fa-pinterest"></i></a></li>
+                  <li><a href="www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
+              </ul>
+          </div>
+       </div>
+  
+      </footer>
+  
+      <footer id="copyright-footer">
+          <ul>
+              <li>Copyright © 2022 Grow Mark.</li>
+              <li>All rights reserved.</li>
+              <li>Designed by Oriflamme IT SOLUTIONS</li>
+          </ul>
+      </footer>
+
+    
+
+    <script>
+        var counter = 1;
+        setInterval(function()  {
+          document.getElementById('radio'+ counter).checked = true;
+          counter++; 
+    
+          if(counter>4){
+            counter=1
+          }
+    
+        }, 2500);
+      </script>
+
+</body>
+</html>

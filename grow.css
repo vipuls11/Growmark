@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* .......................head............. */
+#logo{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+   
+}
+#header{
+  
+    opacity: 0.9;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+#body1{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.9;
+   background-color: rgb(133, 34, 226);
+    width: 100%;
+   
+}
+
+/* .clip-path{
+    height: 700px;
+    background-color: blue;
+     
+} */
+
+#rightnav{
+    display: flex;
+   align-items: center;
+   height: 50px;
+   padding-right: 20px;
+   font-size: 18px;
+}
+
+#rightnav .search {
+    margin: 0 20px;   
+}
+
+#rightnav .search input{
+    font-size: 20px;
+    padding-left: 2px;
+    
+}
+
+#rightnav .search .btns{
+    font-size: 20px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.top{
+    padding: 0 10px;      
+}
+
+.top a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* ........servicres  with sub services........... */
+
+.top #mein-ul li{
+    list-style: none;
+}
+/* ....................body2.....................  */
+
+
+#bimage{
+    height: 600px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 76%, 25% 100%, 0% 75% );
+}
+
+.clip-path{
+    background-color:rgb(60, 120, 177);
+    padding-bottom: 50px;
+}
+
+/* .....................{hero-0}................. */
+
+#hero-0{
+    background-color:rgb(60, 120, 177);
+    display: flex;
+    padding: 0px 50px;
+    padding-top: 50px;
+    opacity: 0.9;
+}
+
+#hero-0 .hero-para h2{
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#hero-0 .hero-para p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    word-spacing: 2px;
+    padding: 20px 0;
+}
+.hero-para{
+    animation: para 5s ease-in-out;
+    animation-delay: 10ms;
+}
+
+@keyframes para{
+    0%{
+       transform: translateX(-650px);
+    }
+    100%{
+       transform: translateX(0px);
+    }
+    /* 100%{
+       transform: translateX(500px);
+    } */
+     }
+
+#hero-0 img{
+    animation: mymove 3s ease-in-out;
+    animation-delay: 10ms;
+}
+
+@keyframes mymove{
+    0%{
+       transform: translateX(650px);
+    }
+    100%{
+       transform: translateX(0px);
+    }
+    /* 100%{
+       transform: translateX(500px);
+    } */
+     }
+
+/* .............................hero-1.................... */
+
+#hero-1{
+    background-color: rgb(60, 120, 177);
+    display: flex;
+    padding: 0px 50px;
+    padding-bottom: 50px;
+    opacity: 0.9;
+    
+}
+
+.hero-para-1{
+    text-align: left;
+    margin: 0px 50px;
+}
+
+#hero-1 .hero-para-1 h2{
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#hero-1 .hero-para-1 p{
+    /* background-color: antiquewhite; */
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 2px;
+    padding: 20px 0;
+}
+
+#hero-1 img{
+    animation: myimage 3s ease-in-out;
+    animation-delay: 10ms;
+}
+
+@keyframes myimage{
+    0%{
+       transform: translateX(-650px);
+    }
+    100%{
+       transform: translateX(0px);
+    }
+    /* 100%{
+       transform: translateX(500px);
+    } */
+     }
+
+     .hero-para-1{
+        animation: para-1 5s ease-in-out;
+        animation-delay: 10ms;
+    }
+
+     @keyframes para-1{
+        0%{
+           transform: translateX(650px);
+        }
+        100%{
+           transform: translateX(0px);
+        }
+        /* 100%{
+           transform: translateX(500px);
+        } */
+         }
+/* <!-- .............. train Section ...card-wrapper............ --> */
+
+.training-section{
+    width: 100%;
+    /* height: 800px; */
+    background: url("img/account-and-booking-services.png") center;
+    background-size: cover;
+    padding-bottom: 50px;
+    }
+    .training-section h1{
+    text-align: center;
+    padding: 25px 0;
+    
+    }
+
+    .training-section h1 span{
+        color: rgb(239, 181, 73);
+    }
+    .container{
+    width: 1170px;
+    margin: auto;
+    /* border: 3px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+
+    .training-items{
+    background: white;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 10px 0;
+    flex-basis: 23%;
+    box-shadow: 0px 0px 10px 3px lightgrey;
+    border-radius: 15px 75px 15px 75px;
+    animation: flip 1.3s linear;
+    
+    }
+
+    @keyframes flip {
+        50%{
+            transform: rotateY(180deg);
+        }
+        to{
+            transform: rotateY(180deg);
+        }
+    }
+
+    .training-items h3{
+    padding: 10px 0;
+    font-family: 'Dancing Script', cursive;
+    }
+    .training-items p{
+    font-size: 14px;
+    padding: 10px;
+    /* animation: flip 1s linear; */
+    }
+
+/* .............................flip-card paragraph working properly............... */
+
+    /* .training-items p:hover{
+        animation: flip 1s linear;
+    } */
+
+    /* @keyframes flip {
+        50%{
+            transform: rotateX(90deg);
+        }
+        to{
+            transform: rotateX(180deg);
+        }
+    } */
+/* ......................................flip-card........................ */
+    .training-items button{
+    background-color: rgb(60, 120, 177);
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 10px 0px;
+     cursor: pointer;
+    }
+    .training-items:hover{
+    background-color: rgb(60, 120, 177);
+    transform: rotateX(360deg);
+    }
+    .training-items:hover h3, .training-items:hover p{
+    color: white;
+    }
+    .training-items:hover button{
+    background: white;
+    color:  rgb(60, 120, 177);
+    }
+
+    @media only screen and (min-width:200px) and (max-width:767px){
+    .container{
+    width: 100%;
+    flex-direction: column;
+    }
+    .training-items{
+    margin: 10px;
+    }
+}
+
+/* .........................footer......................... */
+
+
+#Container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    border-bottom: 2px solid orange;
+    background-color:  rgb(60, 120, 177);;
+}
+
+#Container-flex .Our-details-container{
+    width: 45%;
+    padding-right: 30px;   
+}
+
+#Container-flex .Our-details-container p, #Container-flex .Our-details-container a{
+    text-decoration: none;
+    padding-left: 5px;
+    color: black;
+}
+
+#Container-flex .Our-details-container p{
+    padding: 10px 0;
+    font-size: 18px;
+    
+}
+
+.Registration-container{
+    width: 20%;
+}
+
+.Registration-container h3{
+    padding: 10px 0;
+    /* font-weight: 900; */
+}
+
+.Registration-container li{
+    padding: 5px 0;
+}
+
+.Compliances-container{
+    width: 20%;
+}
+
+.Compliances-container h3{
+    padding: 10px 0;
+}
+
+.Compliances-container li{
+    padding: 5px 0;
+}
+
+.ConnectWithUs-container{
+    width: 10%;
+}
+
+.ConnectWithUs-container h3{
+    padding: 10px 0;
+}
+
+.ConnectWithUs-container ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px 2px;
+    font-size: 30px;
+}
+
+.ConnectWithUs-container ul li i{
+    color: black;
+}
+
+.ConnectWithUs-container ul li i:hover{
+    color: orange;
+}
+
+/* ...........................copyright-footer..................... */
+
+#copyright-footer{
+    padding: 20px 0;
+    background-color:  rgb(59, 109, 155);;
+    text-align: center;
+    border-bottom: 2px solid orange;
+}
+
+#copyright-footer ul li{
+    list-style: none;
+    display: inline;
+    padding: 0 5px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+}

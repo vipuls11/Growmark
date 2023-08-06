@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.csss">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>contact</title>
+    <style>
+      .row-header{
+        /* clip-path: polygon(20% 0%, 0 0, 0 51%, 0 100%, 18% 84%, 38% 100%, 62% 86%, 85% 100%, 100% 86%, 100% 0, 48% 0); */
+        clip-path: polygon(18% 15%, 100% 0, 86% 84%, 0% 100%);
+      }
+      .contact{
+        clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 73% 85%, 50% 100%, 23% 85%, 0 100%, 0% 35%, 0 0);
+      }
+    </style>
+</head>
+<body>
+  <div class="text-center m-4">
+  <button onclick=" openPopup()" class="px-6 py-1 font-semibold border-solid border-2 border-indigo-600 cursor-pointer rounded bg-zinc-400 ">Hello</button>
+</div>
+    <div id="popup" class="absolute top-48 left-72 hidden bg-red-200 w-[50%] m-auto text-center">
+        <div class="row-header bg-yellow-100 ;">
+          <h1 class="contact text-2xl font-bold p-4  bg-blue-200">CONTACT US &nbsp;</h1>
+          <h3 class="text-lg font-medium p-2 ">Fill out the form below to learn more!</h3>
+        </div>
+        <div class="row-body m-4">
+          <form action="#">
+            <ul>
+              <li class="text-lg ">
+                <p class="left ">
+                  <label class="font-normal" for="first_name">First name*: </label>
+                  <input class="pl-2 border-2 border-black" type="text" name="first_name" placeholder="John" required/>
+                </p>
+                <p class="pull-right m-2">
+                  <label class="font-normal"for="last_name">Last name*: </label>
+                  <input class="pl-2 border-2 border-black" type="text" name="last_name" placeholder="Smith" required/>      
+                </p>
+              </li>
+              
+              <li class="text-lg ">
+                <p class="m-2">
+                  <label class="font-normal" for="email">Email*: </label>
+                  <input class="pl-2 border-2 border-black" type="email" name="email" placeholder="john.smith@gmail.com" required/>
+                </p>
+              </li>        
+              <li><div class="divider"></div></li>
+              <li class="text-lg ">
+                <label class="font-normal" for="comments">Comments: </label>
+                <textarea class="pl-2 border-2 border-black" cols="46" rows="3" name="comments" placeholder="comments"></textarea>
+              </li>
+              
+              <li class="text-lg ">
+                <input onclick="closepopup()" class="btn btn-submit font-medium border-solid border-2 border-indigo-600 cursor-pointer px-4 rounded bg-zinc-700" type="submit" value="Submit" />
+                <small>or press <strong onclick="closepopup()" class="font-semibold border-solid border-2 border-indigo-600 cursor-pointer px-2 rounded bg-zinc-700">Enter</strong></small>
+              </li>
+              
+            </ul>
+          </form>  
+        </div>
+      </div> 
+      <script>
+       
+
+        function openPopup(){
+            document.getElementById("popup").style.display="block";
+        }
+        function closepopup(){
+            document.getElementById('popup').style.display="none";
+          }
+        function closepopup(){
+          alert("YOUR DETAILS SENT SUCCESSFULLY");
+        }
+    </script>
+</body>
+</html>

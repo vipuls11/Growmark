@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+     /* ..............................background image................... */
+
+#bg-service{
+    width: 100%;
+    height: 300px;
+    background: url(img/account-and-booking-services.png) center;
+    background-size: cover;
+    padding-top: 200px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+/* <!-- ........................................book-keeping-services body-0.............................. --> */
+
+#main-container{
+    /* background-color:rgb(239, 244, 248); */
+    background-color:  hsl(0, 0%, 87%);
+}
+.multi-img{
+    padding: 50px 50px;
+    text-align: center;  
+}
+
+.img-0 img{
+    position: relative;
+    border-radius: 8%;
+    animation: big-img 4s ease-in-out;
+    animation-delay: 9ms;
+}
+
+@keyframes big-img{
+    0%{
+       transform: translateX(-1000px);
+    }
+    100%{
+       transform: translateX(0px);
+    }
+    
+     }
+
+.img-1 img{
+    position: absolute;
+    top: 600px;
+    left: 700px;
+    border-radius: 8%;
+    animation: small-img 5s ease-in-out;
+    animation-delay: 10ms;
+}
+
+@keyframes small-img{
+    0%{
+       transform: translateX(-850px);
+    }
+    50%{
+       transform: translateX(700px);
+    }
+    100%{
+       transform: translateX(-20px);
+    }
+     }
+
+.img-2 img{
+    position: absolute;
+    top: 450px;
+    right: 150px;
+    border-radius: 8%;
+    animation: mid-img 3s ease-in-out;
+    animation-delay: 10ms;
+}
+
+/* @keyframes mid-img{
+    0%{
+       transform: translateX(550px);
+    }
+    100%{
+       transform: translateX(0px);
+    }
+    
+     } */
+
+.item-container{
+    padding: 50px 100px; 
+     text-align: center;
+     /* background-color:rgb(239, 244, 248); */
+     background-color:  hsl(0, 0%, 87%);
+}
+
+@media only screen and (max-width:900px) and (min-width:280px){
+    .item-container {
+        padding: 20px 20px;
+    }
+}
+
+.item-container h1{
+    padding-top: 50px;
+    font-weight: 700;
+}
+
+.item-container p{
+    padding: 20px 0;
+    font-size: 18px;
+    word-spacing: 2px;
+    color:  hsl(234, 12%, 34%);
+}
+
+@media (max-width: 1300px) and (min-width: 1280px){
+    .img-2 img{
+        width: 300px;
+        height: 250px;
+        top: 526px;
+        left: 636px;
+    }
+    .img-1 img{
+        width: 280px;
+        height: 250px;
+        top: 482px;
+        left: 830px;
+    }
+}
+
+@media (max-width: 1279px) and (min-width: 1024px){
+    .img-2 img{
+        width: 300px;
+        height: 250px;
+        top: 500px;
+        left: 538px;
+    }
+    .img-1 img{
+        width: 250px;
+        height: 210px;
+        top: 579px;
+        left: 750px;
+    }
+}
+@media (max-width: 1023px) and (min-width: 912px){
+    .img-2 img{
+        width: 270px;
+        height: 200px;
+        top: 517px;
+        left: 548px;
+    }
+    .img-1 img{
+        width: 200px;
+        height: 160px;
+        top: 469px;
+        left: 680px;
+    }
+}
+
+@media (max-width: 911px) and (min-width: 820px){
+    .img-2 img{
+        width: 250px;
+        height: 200px;
+        top: 472px;
+        left: 500px;
+    }
+    .img-1 img{
+        width: 200px;
+        height: 180px;
+        top: 381px;
+        left: 585px;
+    }
+    .item-container h1{
+        font-size: 35px;
+    }
+}
+
+    @media (max-width: 819px) and (min-width: 768px){
+        .img-2 img {
+            width: 200px;
+            height: 162px;
+            top: 444px;
+            left: 347px;
+        }
+        .img-1 img {
+            width: 195px;
+            height: 154px;
+            top: 397px;
+            left: 473px;
+        }
+        .item-container h1{
+            font-size: 35px;
+        }
+    }
+
+    @media (max-width: 767px) and (min-width: 540px){
+        .img-2 img {
+            width: 94px;
+            height: 85px;
+            top: 421px;
+            left: 284px;
+        }
+        .img-1 img {
+            width: 92px;
+            height: 90px;
+            top: 395px;
+            left: 338px;
+        }
+        .item-container h1{
+            font-size: 25px;
+        }
+    }
+
+    @media (max-width: 539px) and (min-width: 414px){
+        .img-2 img {
+            width: 94px;
+            height: 85px;
+            top: 398px;
+            left: 190px;
+        }
+        .img-1 img {
+            width: 92px;
+            height: 90px;
+            top: 386px;
+            left: 246px;
+        }
+        .item-container h1{
+            font-size: 25px;
+        }
+    }
+
+    @media (max-width: 413px) and (min-width: 393px){
+        .img-2 img {
+            width: 91px;
+            height: 70px;
+            top: 388px;
+            left: 180px;
+        }
+        .img-1 img {
+            width: 80px;
+            height: 70px;
+            top: 379px;
+            left: 232px;
+        }
+        .item-container h1{
+            font-size: 35px;
+        }
+        .item-container h1{
+            font-size: 25px;
+        }
+    }
+   
+    @media (max-width: 392px) and (min-width: 390px){
+        .img-2 img {
+            width: 91px;
+            height: 70px;
+            top: 388px;
+            left: 180px;
+        }
+        .img-1 img {
+            width: 80px;
+            height: 70px;
+            top: 379px;
+            left: 232px;
+        }
+        .item-container h1{
+            font-size: 25px;
+        }
+    }
+    
+   
+    @media (max-width: 389px) and (min-width: 375px){
+        .img-2 img {
+            width: 75px;
+            height: 61px;
+            top: 388px;
+            left: 186px;
+        }
+        .img-1 img {
+            width: 80px;
+            height: 70px;
+            top: 379px;
+            left: 232px;
+        }
+        .item-container h1{
+            font-size: 25px;
+        }
+    }
+    
+
+    @media (max-width: 374px) and (min-width: 360px){
+        .img-2 img {
+            width: 67px;
+            height: 57px;
+            top: 390px;
+            left: 185px;
+        }
+        .img-1 img {
+            width: 59px;
+            height: 52px;
+            top: 379px;
+            left: 229px;
+        }
+        .item-container h1{
+            font-size: 25px;
+        }
+    }
+
+    @media (max-width: 359px) and (min-width: 280px){
+        .img-2 img {
+            width: 55px;
+            height: 45px;
+            top: 380px;
+            left: 131px;
+        }
+        .img-1 img {
+            width: 45px;
+            height: 40px;
+            top: 374px;
+            left: 164px;
+        }
+        .item-container h1{
+            font-size: 25px;
+        }
+    
+    }
+/* .....................flex-container...................... */
+
+.flex-container{
+    display: flex;
+    padding: 20px 100px;
+    gap: 50px;
+    background-color:  hsl(0, 0%, 87%);
+}
+
+.left-container{
+    /* border: 2px solid black; */
+    border-radius: 20px;
+}
+.img-wrapper{
+    background-color:  hsl(220, 9%, 66%);
+    border-radius: 20px; 
+}
+.containers1{
+    text-align: center;
+    
+}
+
+.left-container img{
+    border-radius: 20px 20px 0 0;
+}
+
+.containers1 img{
+    padding-top: 10px;
+}
+.containers1 p{
+    padding: 15px 15px;
+}
+
+.containers1 h2{
+    font-size: 30px;
+}
+
+.containers1 h6{
+    padding-top: 5px;
+}
+
+@media (max-width: 900px) and (min-width: 767px){
+    .flex-container{
+        padding: 20px 500px
+    }
+}
+
+@media (max-width: 768px) and (min-width: 414px){
+    .flex-container{
+        flex-direction: column;
+        padding: 20px 20px
+    }
+    .img-wrapper{
+        margin: 0px 40px;
+    }
+    .containers1 h2{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 413px) and (min-width: 280px){
+    .flex-container{
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .left-container img{
+    height: 150px;
+    }
+    .containers1 img{
+        width: 60px;
+        height: 70px;
+    }
+    .containers1 h2{
+        font-size: 20px;
+    }
+
+    .item-container h1{
+            font-size: 25px;
+            padding: 0px;
+    }
+}
+
+/* ...............iten-container.............. */
+
+
+/* ..................card-wrapper.............. */
+
+.grid-containers{
+    padding: 50px 100px;
+    background-color:  hsl(0, 0%, 87%);
+}
+.grid-containers h3{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+
+}
+
+@media only screen and (max-width:900px) and (min-width:280px) {
+    .grid-containers h3{
+        padding: 0;
+        font-size: 25px;
+    }
+}
+
+.card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.card{
+    text-align: center;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    box-shadow: 0 10px 30px rgb(116, 113, 106);
+    border-radius: 30px  30px 30px 30px;
+}
+
+.card img{
+    border-radius: 10%;
+}
+
+.card h2{
+    padding: 20px;
+}
+
+.card h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.card h2 a:hover{
+    color: rgb(233, 104, 40);
+}
+
+@media (max-width: 1200px) and (min-width: 880px){
+    .card-wrapper{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+    .card{
+        margin:10px 0;
+    }
+}
+
+@media (max-width: 879px) and (min-width: 280px){
+    .card-wrapper{
+        grid-template-columns: repeat(1,1fr);
+        gap: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        margin: 40px 100px;
+    }
+}
+
+@media (max-width: 540px) and (min-width: 375px){
+            .card-wrapper{
+                display: grid;
+                justify-content: center;
+            }
+}
+
+@media (max-width: 374px) and (min-width: 280px){
+    .grid-containers h3{
+        font-size: 25px;
+    }
+    .card img{
+        width: 200px;
+    }
+    .card h2{
+        font-size: 20px;
+    }
+}
